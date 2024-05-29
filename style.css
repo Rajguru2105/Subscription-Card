@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: palevioletred;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.box{
+    height: 300px;
+    width: 20   0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.box__container{
+    height: 200px;
+    width: 170px;
+    border: solid white 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box__container li{
+    list-style: none;
+    text-align: left;
+    padding: 7px;
+}
+.box__container img{
+    padding-left: 5px;
+}
